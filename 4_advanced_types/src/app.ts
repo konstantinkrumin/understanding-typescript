@@ -149,3 +149,21 @@ const result = add1('Costa', ' Coder');
 result.split(' ');
 
 const result1 = add1(1, 3);
+
+// OPTIONAL CHAINING
+const fetchedUserData = {
+  id: 'u1',
+  name: 'Max',
+  job: { title: 'CEO', description: 'My own company' },
+};
+
+console.log(fetchedUserData?.job?.title);
+
+// NULLISH COALESCING
+const userInput = null;
+
+const storedData = userInput ?? 'DEFAULT'; // WILL ONLY SHOW 'DEFAULT' IF userInput IS REALLY NULL OR UNDEFINED
+
+const storedData1 = userInput || 'DEFAULT'; // WILL SHOW 'DEFAULT' FOR ANY FALSY VALUE OF userInput
+
+console.log(storedData);
