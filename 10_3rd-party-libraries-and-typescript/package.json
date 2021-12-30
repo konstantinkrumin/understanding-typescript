@@ -11,7 +11,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Konstantin Krumin",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
